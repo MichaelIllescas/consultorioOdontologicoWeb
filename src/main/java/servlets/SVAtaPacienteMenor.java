@@ -46,7 +46,7 @@ public class SVAtaPacienteMenor extends HttpServlet {
             throws ServletException, IOException {
         Responsable responsable= new Responsable();
         
-        String nombreRes= request.getParameter("nomPac");
+        String nombreRes= request.getParameter("nomRes");
         String apellidoRes= request.getParameter("apellidoRes");
         String dniRes= request.getParameter("dniRes");
         String direccionRes= request.getParameter("direccionRes");

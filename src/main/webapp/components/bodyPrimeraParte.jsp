@@ -41,9 +41,12 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.jsp">
-                    <i class="fas fa-solid fa-bars"></i>
-                    <span>Menu</span></a>
+               
+                  <button id="sidebarToggleTop" class="btn btn-link  rounded-circle mr-3 nav-link">
+                        <i class="fa fa-bars"></i><span>Menu</span>
+                    </button>
+
+                
             </li>
 
             <!-- Divider -->
@@ -80,7 +83,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Acciones:</h6>
                         <a class="collapse-item" href="pacientesSeleccion.jsp">Alta Paciente</a>
-                        <a class="collapse-item" href="pacientesSeleccion.jsp">Ver Pacientes</a>
+                        <a class="collapse-item" href="SvAltaPAcienteMayor">Ver Pacientes</a>
                         
                     </div>
                 </div>

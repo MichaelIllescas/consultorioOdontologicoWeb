@@ -124,6 +124,16 @@ public class ControladoraPersistencia {
         return responsableJPA.findResponsableEntities(); 
     }
 
+    public List<Paciente> getPacientes() {
+        return pacienteJPA.findPacienteEntities();
+        
+        
+    }
+
+    public void borrarPaciente(int id) throws NonexistentEntityException {
+        pacienteJPA.destroy(id);
+    }
+
     
 
 

@@ -1,4 +1,5 @@
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\persistencia\UsuarioJpaController1.java
+C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\servlets\SVAtaPacienteMenor.java
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\servlets\SvEliminarUsuarios.java
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\persistencia\ResponsableJpaController1.java
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\servlets\SvEditarUsuarios.java
@@ -15,6 +16,7 @@ C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\logica\Odontologo.java
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\logica\Responsable.java
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\persistencia\exceptions\IllegalOrphanException.java
+C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\persistencia\ResponsableJpaController2.java
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\persistencia\HorarioJpaController1.java
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\servlets\SvEliminarOdontologos.java
 C:\Users\jonii\OneDrive\Documentos\NetBeansProjects\ConsultorioOdontologico\src\main\java\persistencia\SecretarioJpaController.java

@@ -1,6 +1,7 @@
 package logica;
 
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.Entity;
@@ -45,7 +46,14 @@ public class Paciente extends Persona implements Serializable {
         this.dni = dni;
     }
 
-    
+    public  String dateToString(Date date) {
+        // Define el formato deseado para la fecha
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+        // Aplica el formato y convierte la fecha a String
+        String formattedDate = sdf.format(date);
+        // Retorna la fecha formateada como String
+        return formattedDate;
+    }
 
   
 

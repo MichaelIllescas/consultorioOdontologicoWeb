@@ -41,3 +41,8 @@
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
   }
+   @media (max-width: 768px) {
+      .table-responsive-sm {
+        font-size: 0.8rem; /* Tamaño de fuente más pequeño para dispositivos pequeños */
+      }
+   }

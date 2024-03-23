@@ -147,6 +147,16 @@ public class Controladora {
         controladoraPersisntencia.crearResponsable(responsable);
     }
 
+    public List<Paciente> getPacientes() {
+       
+        return controladoraPersisntencia.getPacientes();
+        
+    }
+
+    public void borrarPaciente(int id) {
+       controladoraPersisntencia.borrarPaciente(id);
+    }
+
   
    
 

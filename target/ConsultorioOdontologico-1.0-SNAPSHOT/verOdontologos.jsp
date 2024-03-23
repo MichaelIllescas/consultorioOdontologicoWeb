@@ -1,5 +1,4 @@
 <%@page import="logica.Odontologo"%>
-<%@page import="logica.Odontologo"%>
 <%@page import="java.util.List"%>
 
 
@@ -22,7 +21,7 @@
                 <h6 class="m-0 font-weight-bold text-primary">Odontólogos:</h6>
             </div>
             <div class="card-body">
-                <div class="table-responsive">
+                <div class="table-responsive table-responsive-sm">
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                             <tr>
@@ -60,7 +59,7 @@
                         <tbody>
                           <%for(Odontologo odo:listaOdontologos ){%>
                             <tr>
-                                <td id="id_odo"> <%=odo.getId()%></td>
+                                <td> <%=odo.getId()%></td>
                                 <td><%=odo.getNombre()%> </td>
                                 <td><%=odo.getApellido()%></td>
                                 <td><%=odo.getTelefono()%></td>
