@@ -95,7 +95,7 @@
                                         <input type="hidden" name="id" value="<%=pac.getId()%>"> 
                                     
                                     </form>
-                                        <form name="editar" action="SvEditarOdontologo" method="GET">
+                                        <form name="editar" action="SvEditarPaciente" method="GET">
                                         
                                             <button type="submit" class="btn btn-primary  btn-user btn-block " style=" margin-left: 5px;"/>
                                             <i class="fas fa-pencil-alt"></i> Editar  

@@ -157,6 +157,14 @@ public class ControladoraPersistencia {
         pacienteJPA.create(paciente);
     }
 
+    public void editarPacienteMayor(Paciente paciente) {
+        try {
+            pacienteJPA.edit(paciente);
+        } catch (Exception ex) {
+            Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
     
     
 

@@ -24,6 +24,7 @@ persistencia\SecretarioJpaController.class
 logica\Odontologo.class
 servlets\SvEditarOdontologo.class
 logica\Responsable_.class
+servlets\SvEditarPaciente.class
 servlets\SvLogin.class
 com\proyecto\consultorioodontologico\exceptions\NonexistentEntityException.class
 persistencia\HorarioJpaController.class

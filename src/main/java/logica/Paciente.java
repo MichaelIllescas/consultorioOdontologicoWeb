@@ -51,7 +51,7 @@ public class Paciente extends Persona implements Serializable {
 
     public  String dateToString(Date date) {
         // Define el formato deseado para la fecha
-        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         // Aplica el formato y convierte la fecha a String
         String formattedDate = sdf.format(date);
         // Retorna la fecha formateada como String

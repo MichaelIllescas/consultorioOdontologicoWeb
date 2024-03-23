@@ -127,8 +127,6 @@ public class Controladora {
         
     }
 
-    
-
     public void crearResponsable(Responsable responsable) {
         controladoraPersisntencia.crearResponsable(responsable);
     }
@@ -144,6 +142,7 @@ public class Controladora {
     }
     
     public Paciente traerPaciente(int id){
+        
        return controladoraPersisntencia.treaerPaciente(id);
         
     }
@@ -166,6 +165,12 @@ public class Controladora {
     public void crearPacienteMayor(Paciente paciente) {
         controladoraPersisntencia.crearPaciente(paciente);
     }
+
+    public void editarPacienteMayor(Paciente paciente) {
+        controladoraPersisntencia.editarPacienteMayor(paciente);
+    }
  
+    
+  
 
 }

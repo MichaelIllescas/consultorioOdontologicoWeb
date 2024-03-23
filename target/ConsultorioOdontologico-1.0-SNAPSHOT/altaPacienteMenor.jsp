@@ -12,6 +12,7 @@
         
         <p>Este es un apartado para dar de alta a los diferentes pacientes menores de edad en el sistema.</p>
         </div>
+      
         <form class="user text-center" action="SVAtaPacienteMenor" method="POST">
   <h1>Paciente:</h1>
   <div class="form-group col">
