@@ -4,7 +4,9 @@ import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
@@ -20,7 +22,8 @@ public class Paciente extends Persona implements Serializable {
     private String tiene_OS;
     private String tipo_sangre;  
     private String dni;
-    @OneToOne
+    @OneToOne(cascade=CascadeType.ALL)
+    @JoinColumn( name="RESPONSABLE_ID")
     private Responsable responsable;
     @OneToMany(mappedBy = "paciente")
     private List<Turno> listaTurnos; 

@@ -1,6 +1,7 @@
 package logica;
 
 import com.google.protobuf.TextFormat.ParseException;
+import java.awt.image.RescaleOp;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -24,20 +25,16 @@ public class Controladora {
     public void creaUsuario(String nombreUsusario, String contaseña,String rol){
         
         Usuario usuario =new Usuario();
-    
         usuario.setNombre_usuario(nombreUsusario);
         usuario.setContrasenia(contaseña);
         usuario.setRol(rol);
         
-        controladoraPersisntencia.crearUsuario(usuario);
-        
+        controladoraPersisntencia.crearUsuario(usuario);  
     }
 
     public List<Usuario> getUsuarios() {
        
-        return controladoraPersisntencia.getUsuarios();
-        
-        
+        return controladoraPersisntencia.getUsuarios();  
     }
 
     public void borrarUsuario(int id) {
@@ -69,16 +66,14 @@ public class Controladora {
                     ingreso=false;
                 }
             }
-      
-     
+ 
         }
 
          return ingreso;
     }
 
     public void crearOdontologo(String nombre, String apellido,  String telefono, String dni,String direccion,  String especialidad) throws java.text.ParseException {
-       
-        
+         
         Odontologo odontologo= new Odontologo();
         odontologo.setNombre(nombre);
         odontologo.setApellido(apellido);
@@ -86,9 +81,7 @@ public class Controladora {
         odontologo.setEspecialidad(especialidad);
         odontologo.setTelefono(telefono);
         odontologo.setDni(dni);
-        
-        
-        
+
         controladoraPersisntencia.crearOdontologo(odontologo);
     }
 
@@ -134,14 +127,7 @@ public class Controladora {
         
     }
 
-    public void crearPacienteMenor(Paciente paciente ) {
-        
-    List<Responsable> responsables= controladoraPersisntencia.traerResponsables();         
-
-       int idResponsable=responsables.size(); 
-
-        controladoraPersisntencia.crearPacienteMenor(paciente, idResponsable);
-    }
+    
 
     public void crearResponsable(Responsable responsable) {
         controladoraPersisntencia.crearResponsable(responsable);
@@ -149,17 +135,37 @@ public class Controladora {
 
     public List<Paciente> getPacientes() {
        
-        return controladoraPersisntencia.getPacientes();
+        List<Paciente> listaPacientes= controladoraPersisntencia.getPacientes();
+   
+     
+         
+          return listaPacientes;
         
     }
+    
+    public Paciente traerPaciente(int id){
+       return controladoraPersisntencia.treaerPaciente(id);
+        
+    }
+    
+    public void borrarPaciente(int id) throws NonexistentEntityException {
+        
+      
+        controladoraPersisntencia.borrarPaciente(id);
 
-    public void borrarPaciente(int id) {
-       controladoraPersisntencia.borrarPaciente(id);
     }
 
-  
-   
+    public Responsable traerResponsable(int id) {
+       return controladoraPersisntencia.traerResponsable(id);
+    }
+    
+    public void borrarResponsable(int id) throws NonexistentEntityException{
+        controladoraPersisntencia.borrarResponsable(id);
+    }
 
+    public void crearPacienteMayor(Paciente paciente) {
+        controladoraPersisntencia.crearPaciente(paciente);
+    }
+ 
 
-  
 }

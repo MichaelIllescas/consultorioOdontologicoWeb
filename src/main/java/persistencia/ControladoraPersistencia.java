@@ -99,41 +99,65 @@ public class ControladoraPersistencia {
     public Odontologo traerOdontologo(int id) {
        return odontologoJPA.findOdontologo(id);
     }
-
+    
+    //crea una instancia de un paciente en la BD el cual recibe por paramatro sin clave foranea a Responsable
     public void crearPacienteMayor(Paciente pacienteMayor) {
-      pacienteJPA.create(pacienteMayor);
-        
+      pacienteJPA.create(pacienteMayor);   
     }
 
+    //crea una instancia de un responsable en la BD el cual recibe por paramatro
     public void crearResponsable(Responsable responsable) {
         responsableJPA.create(responsable);
-        
     }
 
+    //crea un paciente menor de edad a raiz de una instancia de Paciente y del ID del responsable
     public void crearPacienteMenor(Paciente paciente, int idResponsable) {
         
         paciente.setResponsable(responsableJPA.findResponsable(idResponsable));
         
         pacienteJPA.create(paciente);
-        
-        
+   
     }
 
+    //retorna una lista de los responsables que hay en la BD
     public List<Responsable>traerResponsables() {
         
         return responsableJPA.findResponsableEntities(); 
     }
 
+    //retorna una lista de los pacientes que hay en la BD
     public List<Paciente> getPacientes() {
         return pacienteJPA.findPacienteEntities();
-        
-        
+           
     }
 
+    //Elimina un paciente de la BD a raiz de un id que recibe
     public void borrarPaciente(int id) throws NonexistentEntityException {
+       
         pacienteJPA.destroy(id);
+      
     }
 
+    //retorna un responsable de la BD a raiz de un id
+    public Responsable traerResponsable(int id) {
+        return responsableJPA.findResponsable(id);
+    }
+
+    //retorna un paciente de la BD a raiz de un id
+    public Paciente treaerPaciente(int id) {
+       return pacienteJPA.findPaciente(id);
+    }
+    
+    //Elimina un Responsable de la BD a raiz de un id que recibe
+    public void borrarResponsable(int id) throws NonexistentEntityException {
+        responsableJPA.destroy(id);
+    }
+
+    public void crearPaciente(Paciente paciente) {
+        pacienteJPA.create(paciente);
+    }
+
+    
     
 
 

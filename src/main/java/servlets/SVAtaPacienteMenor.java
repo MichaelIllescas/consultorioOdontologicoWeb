@@ -66,9 +66,7 @@ public class SVAtaPacienteMenor extends HttpServlet {
         responsable.setDireccion(direccionRes);
         responsable.setFecha_Nacimiento(fechaNacRes);
         responsable.setTelefono(telefonoRes);
-        
-        
-        controladora.crearResponsable(responsable);
+
         
         Paciente paciente = new Paciente();
         
@@ -89,9 +87,10 @@ public class SVAtaPacienteMenor extends HttpServlet {
         paciente.setTelefono(telefonoPac);
         paciente.setTiene_OS(dniRes);
         paciente.setTipo_sangre(tipoSangrePac);
+        paciente.setResponsable(responsable);
         
         
-        controladora.crearPacienteMenor(paciente);
+        controladora.crearPacienteMayor(paciente);
         
         response.sendRedirect("index.jsp");
    
@@ -101,6 +100,8 @@ public class SVAtaPacienteMenor extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }
+
+    
     
        public static Date convertirStringADate(String fecha) throws ParseException, java.text.ParseException {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");

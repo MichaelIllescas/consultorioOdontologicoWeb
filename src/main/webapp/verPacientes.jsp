@@ -77,9 +77,14 @@
                                  <td><%=pac.getTelefono()%></td>
                                   <td><%=pac.getDireccion()%></td>
                                   <td><%=pac.dateToString(pac.getFecha_Nacimiento())%></td>
-                                 <td>OBRA SOCIAL</td>  
+                                 <td><%=pac.isTiene_OS()%></td>  
                                  <td><%=pac.getTipo_sangre()%></td> 
-                                 <td>RESPONSABLE</td> 
+                                 <td><%if (pac.getResponsable()!= null) {%>
+                                     <%=pac.getResponsable().getNombre() + " " + pac.getResponsable().getApellido()%>
+                                     <%}else{%>
+                                -----
+                                 <%}%>
+                                 </td> 
                                   
                                 <td style="display:flex; width:210px;">
                                     <form name="eliminar" action="SvEliminarPaciente" method="POST">

@@ -1,7 +1,11 @@
 package logica;
 
 import java.util.Date;
+import java.util.List;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 
 /**
  *
@@ -11,6 +15,8 @@ import javax.persistence.Entity;
 public class Responsable extends Persona {
    // private int id_responsable;
     private String parentezco;
+    
+   
 
     public Responsable() {
     }

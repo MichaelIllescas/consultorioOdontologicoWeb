@@ -35,6 +35,7 @@ logica\Persona_.class
 servlets\SvUsuarios.class
 logica\Secretario.class
 logica\Horario_.class
+servlets\SvEliminarPaciente.class
 persistencia\PacienteJpaController.class
 persistencia\PersonaJpaController.class
 persistencia\UsuarioJpaController1.class

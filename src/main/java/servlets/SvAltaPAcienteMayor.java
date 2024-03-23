@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import logica.Controladora;
 import logica.Paciente;
+import logica.Responsable;
 
 /**
  *
@@ -38,7 +39,9 @@ public class SvAltaPAcienteMayor extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         List <Paciente> listaPacientes=new ArrayList<>();
-        listaPacientes=controladora.getPacientes();
+          listaPacientes=controladora.getPacientes();
+          
+           
         
         HttpSession miSession= request.getSession();
         miSession.setAttribute("listaPac", listaPacientes);
