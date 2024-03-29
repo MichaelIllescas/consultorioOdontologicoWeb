@@ -33,6 +33,10 @@
         rel="stylesheet">
     <link href="../css/estilos.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/bootstrap-datepicker-1.9.0-dist/css/bootstrap-datepicker.standalone.css"/>
+    
+    
 
  
 </head>

@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import logica.Controladora;
 import logica.Paciente;
+import logica.Persona;
 import logica.Responsable;
 
 /**
@@ -60,12 +61,14 @@ public class SvAltaPAcienteMayor extends HttpServlet {
         String nombre= request.getParameter("nombre");
         String apellido= request.getParameter("apellido");
         String dni= request.getParameter("dni");
-        String fechaNac= request.getParameter("fechaNac");
+        System.out.println(request.getParameter("fechaNac"));
+        String fechaNac= Persona.formatearFecha( request.getParameter("fechaNac") );
+        System.out.println(request.getParameter("fechaNac"));
         String direccion= request.getParameter("direccion");
         String telefono= request.getParameter("telefono");
         String obraSocial= request.getParameter("obraSocial");
         String tipoSangre= request.getParameter("tipoSangre");
-        
+       
         try {
             controladora.crearPacienteMayor(nombre, apellido, dni, fechaNac, direccion, telefono,obraSocial,tipoSangre);
         } catch (Exception e) {

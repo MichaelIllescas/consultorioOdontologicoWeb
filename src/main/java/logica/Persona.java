@@ -1,6 +1,8 @@
 package logica;
 
 import java.io.Serializable;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -94,4 +96,26 @@ public class Persona implements Serializable {
     }
     
     
+      public static String formatearFecha(String fechaString) {
+        try {
+            // Crear un objeto SimpleDateFormat para el formato actual
+            SimpleDateFormat formatoActual = new SimpleDateFormat("yyyy-MM-dd");
+            
+            // Parsear la cadena de fecha al formato actual
+            Date fecha = formatoActual.parse(fechaString);
+            
+            // Crear un nuevo objeto SimpleDateFormat para el formato deseado
+            SimpleDateFormat nuevoFormato = new SimpleDateFormat("dd/MM/yyyy");
+            
+            System.out.println(nuevoFormato.format(fecha));
+            // Formatear la fecha al nuevo formato
+            return nuevoFormato.format(fecha);
+       } catch (ParseException e) {
+            // Manejar la excepción si la cadena de fecha no puede ser parseada
+            e.printStackTrace();
+            return null;
+        }
+    
+    
+}
 }

@@ -85,11 +85,8 @@ public class Controladora {
         controladoraPersisntencia.crearOdontologo(odontologo);
     }
 
-     public static Date convertirStringADate(String fecha) throws ParseException, java.text.ParseException {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        return dateFormat.parse(fecha);
-    }
-
+    
+    
     public List<Odontologo> getOdontologos() {
        return  controladoraPersisntencia.getOdontologos();
     }
@@ -115,6 +112,7 @@ public class Controladora {
         pacienteMayor.setDireccion(direccion);
         pacienteMayor.setDni(dni);
         pacienteMayor.setTelefono(telefono);
+        
         pacienteMayor.setFecha_Nacimiento(convertirStringADate(fechaNac));
         pacienteMayor.setTipo_sangre(tipoSangre);
         pacienteMayor.setTiene_OS(obraSocial);
@@ -126,6 +124,12 @@ public class Controladora {
         
         
     }
+    
+    public static Date convertirStringADate(String fecha) throws ParseException, java.text.ParseException {
+    SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+    return dateFormat.parse(fecha);
+}
+
 
     public void crearResponsable(Responsable responsable) {
         controladoraPersisntencia.crearResponsable(responsable);

@@ -25,8 +25,11 @@
     </div>
 
     <div class="col-sm-6 mx-auto mb-3">
-          <input type="text" class="form-control form-control-user" id="fechaNac" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNac" required>
+        <input type="date" class="form-control form-control-user" id="fechaNac" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNac" required>
     </div>
+ 
+      
+      
     <div class="col-sm-6 mx-auto mb-3">
           <input type="text" class="form-control form-control-user" id="direccion" placeholder="Dirección" name="direccion" required>
     </div>
@@ -53,8 +56,11 @@
 
     </div>  
     
+    <script src="/bootstrap-datepicker-1.9.0-dist/js/bootstrap-datepicker.js"></script>
+    <script src="/bootstrap-datepicker-1.9.0-dist/js/bootstrap-datepicker.min.js"></script>
+    
+    
     <%@include file="components/bodyFinal.jsp" %>
-
 
 
 
