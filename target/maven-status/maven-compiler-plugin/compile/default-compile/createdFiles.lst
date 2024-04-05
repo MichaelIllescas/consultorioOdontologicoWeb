@@ -33,7 +33,6 @@ servlets\SvAltaPAcienteMayor.class
 servlets\SVAtaPacienteMenor.class
 persistencia\ResponsableJpaController2.class
 persistencia\ControladoraPersistencia.class
-.netbeans_automatic_build
 servlets\SvEditarOdontologo.class
 logica\Responsable_.class
 servlets\SvEditarPaciente.class

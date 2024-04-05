@@ -39,6 +39,8 @@ public class SvLogin extends HttpServlet {
         
         String usuario= request.getParameter("usuario");
         String clave= request.getParameter("password");
+        Usuario user= controladora.traerUsuarioPorUserYPass(usuario, clave);
+        String visiblidad;
         
         boolean validacion=false;
         
@@ -48,6 +50,15 @@ public class SvLogin extends HttpServlet {
         if(validacion==true){
             HttpSession miSession= request.getSession(true);
             miSession.setAttribute("usuario", usuario);
+            miSession.setAttribute("user", user);
+            if(user.getRol().equalsIgnoreCase("administrador")){
+                visiblidad="true";
+            }else{
+            
+                visiblidad= "none";
+            }
+            miSession.setAttribute("visiblidad", visiblidad);
+            
             response.sendRedirect("index.jsp");
             
         }else{

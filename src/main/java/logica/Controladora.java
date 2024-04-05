@@ -173,8 +173,27 @@ public class Controladora {
     public void editarPacienteMayor(Paciente paciente) {
         controladoraPersisntencia.editarPacienteMayor(paciente);
     }
+
+    public Usuario traerUsuarioPorUserYPass(String usuario, String clave) {
+         List<Usuario> listaUsuarios= new ArrayList<>();
+        listaUsuarios= controladoraPersisntencia.getUsuarios();
+        
+        Usuario user=null;
+        
+        for(Usuario usu: listaUsuarios){
+            if (usu.getNombre_usuario().equals(usuario))
+            {
+                if(usu.getContrasenia().equals(clave))
+                {
+                     user=usu;
+                }
+            }
  
+        }
+
+         return user;
     
-  
+    }
+
 
 }

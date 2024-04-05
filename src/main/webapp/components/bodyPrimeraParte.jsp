@@ -13,6 +13,9 @@
     
      <%HttpSession miSession= request.getSession();
       String usuario = (String)miSession.getAttribute("usuario");
+      Usuario user = (Usuario)miSession.getAttribute("user");
+      String visiblidad = (String)miSession.getAttribute("visiblidad");
+      
        if (usuario==null)
        {
             response.sendRedirect("sinLogin.jsp");
@@ -91,7 +94,7 @@
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item" style="display: visiblidad">
+            <li class="nav-item" style="display: <%=visiblidad%> ">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUsers"
                     aria-expanded="true" aria-controls="collapseUsers">
                    
@@ -160,7 +163,8 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">
                                    <%=
-                                       miSession.getAttribute("usuario")
+                                      user.getRol().toUpperCase() + " : " +
+                                       usuario
                                     %></span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">

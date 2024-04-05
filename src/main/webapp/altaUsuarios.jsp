@@ -26,7 +26,7 @@
             <div class="form-group col-sm-6 mx-auto mb-3 ">
                 <label for="rol">Selecciona un Rol</label>
                 <select id="miListaDesplegable " name="rol" class="form-control  form-control-lg form-select rounded-5 "  style="font-size: 0.99rem; " >
-                    <option value="ADMINISTADOR">Administrador</option>
+                    <option value="ADMINISTRADOR">Administrador</option>
                     <option value="ODONTOLOGO">Odontólogo/a</option>
                     <option value="SECRETARIO">Secretario/a</option>
 
