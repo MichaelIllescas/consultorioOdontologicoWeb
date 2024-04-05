@@ -61,9 +61,9 @@ public class SvAltaPAcienteMayor extends HttpServlet {
         String nombre= request.getParameter("nombre");
         String apellido= request.getParameter("apellido");
         String dni= request.getParameter("dni");
-        System.out.println(request.getParameter("fechaNac"));
+        
         String fechaNac= Persona.formatearFecha( request.getParameter("fechaNac") );
-        System.out.println(request.getParameter("fechaNac"));
+     
         String direccion= request.getParameter("direccion");
         String telefono= request.getParameter("telefono");
         String obraSocial= request.getParameter("obraSocial");

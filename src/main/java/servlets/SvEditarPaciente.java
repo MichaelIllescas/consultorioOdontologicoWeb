@@ -16,6 +16,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import logica.Controladora;
 import logica.Paciente;
+import logica.Persona;
+import logica.Responsable;
 
 /**
  *
@@ -62,29 +64,53 @@ public class SvEditarPaciente extends HttpServlet {
             throws ServletException, IOException {
         processRequest(request, response);
         
+        Paciente paciente = (Paciente) request.getSession().getAttribute("pacEditar");
         
         String nombre= request.getParameter("nombre");
         String apellido= request.getParameter("apellido");
         String dni= request.getParameter("dni");
         String telefono= request.getParameter("telefono");
         String direccion= request.getParameter("direccion");
-        String fechaNac= request.getParameter("fechaNac");
+        String fechaNacido= Persona.formatearFecha( request.getParameter("fechaNac"));
         String obraSocial= request.getParameter("obraSocial");
         String tipoSangre= request.getParameter("tipoSangre");
+       
+       
         
-        
-        
-        String nombreRes= request.getParameter("NombreRes");
-        String apellidoRes= request.getParameter("apellidoRes");
-        String fechaNacResponsable= request.getParameter("fechaNacRes");
-        String direccionRes= request.getParameter("direccionRes");
-        String telefonoRes= request.getParameter("telefonoRes");
-        String parentesco= request.getParameter("parentesco");
-        
+        String nombreRes=null;
+        String apellidoRes=null;
+        String fechaNacResponsable=null;
+        String direccionRes=null;
+        String telefonoRes=null;
+        String parentesco=null;
+                
+        if(paciente.getResponsable()!=null){
+         nombreRes= request.getParameter("NombreRes");
+         apellidoRes= request.getParameter("apellidoRes");
+         fechaNacResponsable= Persona.formatearFecha( request.getParameter("fechaNacRes"));
+         direccionRes= request.getParameter("direccionRes");
+         telefonoRes= request.getParameter("telefonoRes");
+         parentesco= request.getParameter("parentesco");
+      
+        }
       
       
         
-        Paciente paciente = (Paciente) request.getSession().getAttribute("pacEditar");
+        
+       
+        Date fechaNacimiento=null;
+        Date fechaNacRes=null;
+        try {
+            
+            
+            fechaNacimiento = convertirStringADate(fechaNacido);
+            
+            fechaNacRes = convertirStringADate(fechaNacResponsable);
+            
+        } catch (ParseException ex) {
+            Logger.getLogger(SVAtaPacienteMenor.class.getName()).log(Level.SEVERE, null, ex);
+        }
+       
         paciente.setNombre(nombre);
         paciente.setApellido(apellido);
         paciente.setDni(dni);
@@ -92,20 +118,10 @@ public class SvEditarPaciente extends HttpServlet {
         paciente.setDireccion(direccion);
         paciente.setTiene_OS(obraSocial);
         paciente.setTipo_sangre(tipoSangre);
-        
-        
-        Date fechaNacimiento=null;
-        Date fechaNacRes=null;
-        try {
-            fechaNacimiento = convertirStringADate(fechaNac);
-             fechaNacRes = convertirStringADate(fechaNacResponsable);
-        } catch (ParseException ex) {
-            Logger.getLogger(SVAtaPacienteMenor.class.getName()).log(Level.SEVERE, null, ex);
-        }
         paciente.setFecha_Nacimiento(fechaNacimiento);
-        
  
         if(paciente.getResponsable()!=null){
+
               paciente.getResponsable().setNombre(nombreRes);
               paciente.getResponsable().setApellido(apellidoRes);
               paciente.getResponsable().setFecha_Nacimiento(fechaNacRes);
@@ -115,6 +131,7 @@ public class SvEditarPaciente extends HttpServlet {
                      
             
         }
+        
         
         
         controladora.editarPacienteMayor(paciente);
@@ -131,11 +148,10 @@ public class SvEditarPaciente extends HttpServlet {
     }// </editor-fold>
 
 
-           public Date convertirStringADate(String fecha) throws ParseException, java.text.ParseException {
+    public  Date convertirStringADate(String fecha) throws ParseException{
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        return dateFormat.parse(fecha);
+        
+            return dateFormat.parse(fecha);
+        
     }
-    
-
-    
 }

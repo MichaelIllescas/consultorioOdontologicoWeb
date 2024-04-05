@@ -4,13 +4,14 @@
     Author     : jonii
 --%>
 
+<%@page import="logica.Usuario"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <body id="page-top" >
    
 
     <!-- validacion de session-->
     
-    <%HttpSession miSession= request.getSession();
+     <%HttpSession miSession= request.getSession();
       String usuario = (String)miSession.getAttribute("usuario");
        if (usuario==null)
        {
@@ -90,7 +91,7 @@
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
+            <li class="nav-item" style="display: visiblidad">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUsers"
                     aria-expanded="true" aria-controls="collapseUsers">
                    
@@ -108,11 +109,24 @@
                 </div>
             </li>
             
+        
+                
+                
+          
+           
            
             <!-- Divider -->
             <hr class="sidebar-divider">
+            <form action="SvCargarDatosTurno" method="GET">
+            <div class="container-fluid ">
 
-            
+                <div class="text-center d-flex justify-content-center align-items-center">
+
+                    <button type="submit" class="btn btn-primary">Asignar Turno</button>
+                     
+                </div>
+            </div>
+            </form>
 
         </ul>
         <!-- End of Sidebar -->
@@ -145,7 +159,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">
-                                    <%=
+                                   <%=
                                        miSession.getAttribute("usuario")
                                     %></span>
                                 <img class="img-profile rounded-circle"

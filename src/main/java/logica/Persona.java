@@ -113,7 +113,7 @@ public class Persona implements Serializable {
        } catch (ParseException e) {
             // Manejar la excepción si la cadena de fecha no puede ser parseada
             e.printStackTrace();
-            return null;
+            return fechaString;
         }
     
     

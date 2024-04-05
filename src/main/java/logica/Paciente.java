@@ -1,6 +1,7 @@
 package logica;
 
 import java.io.Serializable;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -51,24 +52,28 @@ public class Paciente extends Persona implements Serializable {
 
     public  String dateToString(Date date) {
         // Define el formato deseado para la fecha
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         // Aplica el formato y convierte la fecha a String
         String formattedDate = sdf.format(date);
         // Retorna la fecha formateada como String
         return formattedDate;
     }
 
-  
+  public static String convertirFormatoFecha(String fechaString) throws ParseException {
+        // Crear objetos SimpleDateFormat para los formatos de entrada y salida
+        SimpleDateFormat formatoEntrada = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat formatoSalida = new SimpleDateFormat("dd-MM-yyyy");
+
+        // Convertir la cadena de fecha en un objeto Date
+        Date fecha = formatoEntrada.parse(fechaString);
+
+        // Formatear la fecha en el nuevo formato y devolverla como cadena
+        return formatoSalida.format(fecha);
+    }
 
    
 
-   /* public int getId_paciente() {
-        return id_paciente;
-    }
-
-    public void setId_paciente(int id_paciente) {
-        this.id_paciente = id_paciente;
-    }*/
+  
 
     public String isTiene_OS() {
         return tiene_OS;

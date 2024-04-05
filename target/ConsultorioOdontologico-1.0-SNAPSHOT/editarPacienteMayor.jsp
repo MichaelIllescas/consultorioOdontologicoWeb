@@ -4,6 +4,8 @@
     Author     : jonii
 --%>
 
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="logica.Persona"%>
 <%@page import="logica.Paciente"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -21,11 +23,12 @@
         </div>
 
         <%            Paciente paciente = (Paciente) request.getSession().getAttribute("pacEditar");
+                       
         %>
 
 
 
-        <form class="user text-center" action="SvEditarPaciente" method="POST">
+        <form class="user text-center" action="SvEditarPacienteMayor" method="POST">
             <div class="form-group col">
                 <div class="col-sm-6 mx-auto mb-3">
                     <input name="nombre" type="text" class="form-control form-control-user" id="nombre" placeholder="Nombre" value="<%=paciente.getNombre()%>" required>
@@ -38,7 +41,7 @@
                 </div>
 
                 <div class="col-sm-6 mx-auto mb-3">
-                    <input type="text" class="form-control form-control-user" id="fechaNac" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNac" value="<%=paciente.dateToString(paciente.getFecha_Nacimiento())%>" required>
+                    <input type="date" class="form-control form-control-user" id="fechaNac" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNac" value="<%=paciente.dateToString(paciente.getFecha_Nacimiento())%>" required>
                 </div>
                 <div class="col-sm-6 mx-auto mb-3">
                     <input type="text" class="form-control form-control-user" id="direccion" placeholder="Dirección" name="direccion" value="<%=paciente.getDireccion()%>" required>

@@ -76,7 +76,7 @@
                                 <td><%=pac.getDni()%></td>
                                  <td><%=pac.getTelefono()%></td>
                                   <td><%=pac.getDireccion()%></td>
-                                  <td><%=pac.dateToString(pac.getFecha_Nacimiento())%></td>
+                                  <td><%=Paciente.convertirFormatoFecha(pac.dateToString(pac.getFecha_Nacimiento()))%></td>
                                  <td><%=pac.isTiene_OS()%></td>  
                                  <td><%=pac.getTipo_sangre()%></td> 
                                  <td><%if (pac.getResponsable()!= null) {%>

@@ -32,7 +32,7 @@
         <input type="text" class="form-control form-control-user" id="dni" placeholder="DNI" name="dni" value="<%=paciente.getDni()%>" required>
     </div>
     <div class="col-sm-6 mx-auto mb-3">
-        <input type="text" class="form-control form-control-user" id="fechaNac" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNac" value="<%=paciente.dateToString(paciente.getFecha_Nacimiento())%>" required>
+        <input type="date" class="form-control form-control-user" id="fechaNac" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNac" value="<%=paciente.dateToString(paciente.getFecha_Nacimiento())%>" required>
     </div>
     <div class="col-sm-6 mx-auto mb-3">
         <input type="text" class="form-control form-control-user" id="direccion" placeholder="Dirección" name="direccion" value="<%=paciente.getDireccion()%>" required>
@@ -58,7 +58,7 @@
    
 
     <div class="col-sm-6 mx-auto mb-3">
-        <input type="text" class="form-control form-control-user" id="fechaNacRes" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNacRes" value="<%=paciente.dateToString(paciente.getResponsable().getFecha_Nacimiento())%>" required>
+        <input type="date" class="form-control form-control-user" id="fechaNacRes" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNacRes" value="<%=paciente.dateToString(paciente.getResponsable().getFecha_Nacimiento())%>" required>
     </div>
     <div class="col-sm-6 mx-auto mb-3">
         <input type="text" class="form-control form-control-user" id="direccionRes" placeholder="Dirección" name="direccionRes" value="<%=paciente.getResponsable().getDireccion()%>" required>

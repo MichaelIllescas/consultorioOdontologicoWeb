@@ -26,7 +26,7 @@
       <input type="text" class="form-control form-control-user" id="dni" placeholder="DNI" name="dniPac" required>
     </div>
     <div class="col-sm-6 mx-auto mb-3">
-          <input type="text" class="form-control form-control-user" id="fechaNac" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNacPac" required>
+        <input type="date" class="form-control form-control-user" id="fechaNac" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNacPac" required>
     </div>
     <div class="col-sm-6 mx-auto mb-3">
           <input type="text" class="form-control form-control-user" id="direccion" placeholder="Dirección" name="direccionPac" required>
@@ -54,7 +54,7 @@
     </div>
 
     <div class="col-sm-6 mx-auto mb-3">
-          <input type="text" class="form-control form-control-user" id="fechaNacRes" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNacRes" required>
+          <input type="date" class="form-control form-control-user" id="fechaNacRes" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fechaNacRes" required>
     </div>
     <div class="col-sm-6 mx-auto mb-3">
           <input type="text" class="form-control form-control-user" id="direccionRes" placeholder="Dirección" name="direccionRes" required>

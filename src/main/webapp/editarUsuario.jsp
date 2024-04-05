@@ -6,8 +6,8 @@
     <%@include file="components/header.jsp" %>
     <%@include file="components/bodyPrimeraParte.jsp" %>
 
-    <div class="p-5">
-        <div class="text-center">
+    <div class="p-5 " data-aos="zoom-in">
+        <div class="text-center ">
             <h1>Edición de Usuario</h1>
         
         <p>Este es un apartado para editar un usuario del sistema.</p>
@@ -19,26 +19,27 @@
         
         
         
-        <form class="user" action="SvEditarUsuarios" method="POST">
-            <div class="form-group col">
-                <div class="col-sm-6 mb-3" >
+        <form class="user text-center" action="SvEditarUsuarios" method="POST">
+            <div class="form-group col text-center">
+                <div class="col-sm-6 mb-3 mx-auto" >
                     <input name="nomusu" type="text" class="form-control form-control-user"   id="nomusu" placeholder="Nombre de Usuario" value="<%=user.getNombre_usuario()%>">
                 </div>
-                 <div class="col-sm-6 mb-3">
+                 <div class="col-sm-6 mb-3 mx-auto">
                      <input type="password" class="form-control form-control-user" id="contras" placeholder="Contraseña" name="contras"  value="<%= user.getContrasenia()  %>">
                 </div>
-                 <div class="col-sm-6 mb-3" >
+                 <div class="col-sm-6 mb-3 mx-auto" >
                      <input type="text" class="form-control form-control-user" id="rol" placeholder="Rol" name="rol" value="<%= user.getRol()%>">
                 </div>
                 
-                <!--aca van los a ir todo lo que respecta a horarios y usuarios 
-                -->
                 
+            
                 
+             <button class="btn btn-primary btn-user" type="submit">Guardar</button>
+      
+   
             </div>
-          
            
-            <button class="btn btn-primary btn-user btn-block" type="submit">Guardar</button>
+            
             <hr>
         
           

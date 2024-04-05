@@ -56,7 +56,7 @@ public class SVAtaPacienteMenor extends HttpServlet {
         
         Date fechaNacRes=null;
         try {
-            fechaNacRes = convertirStringADate(request.getParameter("fechaNacRes"));
+            fechaNacRes = convertirStringADate(Persona.formatearFecha(request.getParameter("fechaNacRes")));
         } catch (ParseException ex) {
             Logger.getLogger(SVAtaPacienteMenor.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -73,7 +73,7 @@ public class SVAtaPacienteMenor extends HttpServlet {
         String nombrePac= request.getParameter("nomPac");
         String apellidoPac= request.getParameter("apellidoPac");
         String dniPac= request.getParameter("dniPac");
-        String fechaNacPac= request.getParameter("fechaNacPac");
+        String fechaNacPac= Persona.formatearFecha( request.getParameter("fechaNacPac"));
         String direccionPac= request.getParameter("direccionPac");
         String telefonoPac= request.getParameter("telefonoPac");
         String obraSocialPac= request.getParameter("obraSocialPac");
