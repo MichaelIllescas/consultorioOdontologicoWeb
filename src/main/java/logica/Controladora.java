@@ -195,5 +195,18 @@ public class Controladora {
     
     }
 
+    public void crearTurno(Odontologo odontologo, Paciente paciente, String fecha, String hora, String motivo) {
+      
+        
+        Turno turno =new Turno();
+        turno.setFecha_turno(Utilitaria.convertirStringADateSql(fecha));
+        turno.setHora_turno(hora);
+        turno.setOdontologo(odontologo);
+        turno.setPaciente(paciente);
+        turno.setAfeccion(motivo);
+        controladoraPersisntencia.crearTurno(turno);
+        
+    }
+
 
 }

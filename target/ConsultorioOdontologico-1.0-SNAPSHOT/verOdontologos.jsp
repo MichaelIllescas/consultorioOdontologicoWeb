@@ -70,16 +70,16 @@
                                 <td style="display:flex; width:210px;">
                                     <form name="eliminar" action="SvEliminarOdontologos" method="POST">
                                         
-                                        <button type="submit" class="btn btn-primary  btn-user btn-block " style="background-color: red; margin-right: 5px"/>
-                                        <i class="fas fa-trash-alt"></i> Eliminar
+                                        <button type="submit" class="btn btn-user btn-circle btn-danger"/>
+                                        <i class="fas fa-trash-alt"></i> 
                                         </button>
                                         <input type="hidden" name="id" value="<%=odo.getId()%>"> 
                                     
                                     </form>
                                         <form name="editar" action="SvEditarOdontologo" method="GET">
                                         
-                                            <button type="submit" class="btn btn-primary  btn-user btn-block " style=" margin-left: 5px;"/>
-                                            <i class="fas fa-pencil-alt"></i> Editar  
+                                            <button type="submit" class="btn btn-circle  btn-primary  btn-user " style=" margin-left: 5px;"/>
+                                            <i class="fas fa-pencil-alt"></i>   
                                             </button>
                                             
                                             <input type="hidden" name="id" class="btn btn-primary  btn-user btn-block " value="<%=odo.getId()%>" />
@@ -98,6 +98,7 @@
 
     </div>
     <!-- /.container-fluid -->
+  
 
     
 

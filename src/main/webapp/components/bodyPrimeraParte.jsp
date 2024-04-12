@@ -111,6 +111,21 @@
                     </div>
                 </div>
             </li>
+             <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse-header-turnos"
+                    aria-expanded="true" aria-controls="collapse-">
+                   <i class="fas fa-solid fa-clipboard-list"></i>
+                    <span>Trunos</span>
+                </a>
+                <div id="collapse-header-turnos" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Acciones:</h6>
+                        <a class="collapse-item" href="registrarTrno.jsp">Asignar Turno</a>
+                        <a class="collapse-item" href="verTurnos.jsp">Ver Reservas</a>
+                        
+                    </div>
+                </div>
+            </li>
             
         
                 
@@ -162,10 +177,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">
-                                   <%=
-                                      user.getRol().toUpperCase() + " : " +
-                                       usuario
-                                    %></span>
+                                   <%=user.getRol().toUpperCase() + " : " + user.getNombre_usuario()%></span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>

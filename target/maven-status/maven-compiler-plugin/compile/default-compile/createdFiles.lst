@@ -40,6 +40,7 @@ com\proyecto\consultorioodontologico\exceptions\NonexistentEntityException.class
 servlets\SvRegistrarTurno.class
 persistencia\HorarioJpaController.class
 logica\Horario.class
+logica\Utilitaria.class
 servlets\SvUsuarios.class
 logica\Secretario.class
 servlets\SvCargarDatosTurno.class

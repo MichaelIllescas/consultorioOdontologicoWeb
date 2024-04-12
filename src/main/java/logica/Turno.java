@@ -79,6 +79,22 @@ public class Turno implements Serializable {
         this.afeccion = afeccion;
     }
 
+    public Odontologo getOdontologo() {
+        return odontologo;
+    }
+
+    public void setOdontologo(Odontologo odontologo) {
+        this.odontologo = odontologo;
+    }
+
+    public Paciente getPaciente() {
+        return paciente;
+    }
+
+    public void setPaciente(Paciente paciente) {
+        this.paciente = paciente;
+    }
+
     
 
 }

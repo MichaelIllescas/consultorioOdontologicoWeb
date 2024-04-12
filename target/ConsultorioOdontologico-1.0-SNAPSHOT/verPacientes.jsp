@@ -43,28 +43,15 @@
                              
                             </tr>
                         </thead>
-                        <tfoot>
+                       
                         
                              <%    List<Paciente>listaPacientes= (List)request.getSession().getAttribute("listaPac");                         %>
                         
                         
                         
                             
-                            <tr>
-                                 <th>Id</th>
-                                <th>Nombre</th>
-                                <th>Apellido</th>
-                                <th>DNI</th>
-                                <th>Teléfono</th>
-                                <th>Dirección</th>
-                                <th>Fecha de Nacimiento</th>
-                                <th>Obra Social</th>
-                                <th>Tipo de Sangre</th>
-                                <th>Responsable</th>
-                                
-                                <th style="width:210px">Acción</th>
-                            </tr>
-                        </tfoot>
+                          
+                       
      
                         <tbody>
                                <%for(Paciente pac:listaPacientes ){%>
@@ -89,16 +76,16 @@
                                 <td style="display:flex; width:210px;">
                                     <form name="eliminar" action="SvEliminarPaciente" method="POST">
                                         
-                                        <button type="submit" class="btn btn-primary  btn-user btn-block " style="background-color: red; margin-right: 5px"/>
-                                        <i class="fas fa-trash-alt"></i> Eliminar
+                                        <button type="submit" class="btn btn-circle btn-danger btn-user "/>
+                                        <i class="fas fa-trash-alt"></i> 
                                         </button>
                                         <input type="hidden" name="id" value="<%=pac.getId()%>"> 
                                     
                                     </form>
                                         <form name="editar" action="SvEditarPaciente" method="GET">
                                         
-                                            <button type="submit" class="btn btn-primary  btn-user btn-block " style=" margin-left: 5px;"/>
-                                            <i class="fas fa-pencil-alt"></i> Editar  
+                                            <button type="submit" class="btn btn-primary  btn-user btn-circle " style=" margin-left: 5px;"/>
+                                            <i class="fas fa-pencil-alt"></i>   
                                             </button>
                                             
                                             <input type="hidden" name="id" class="btn btn-primary  btn-user btn-block " value="<%=pac.getId()%>" />

@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import logica.Controladora;
 import logica.Odontologo;
+import logica.Paciente;
 
 /**
  *
@@ -39,13 +40,30 @@ public class SvRegistrarTurno extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
-        
-        
       
+       
+         HttpSession session=request.getSession();
        
         
         
         
+        Odontologo odontologo= (Odontologo) session.getAttribute("odon");
+        
+        Paciente paciente=(Paciente)session.getAttribute("paciente");
+        
+        String hora= (String) request.getParameter( "horaseleccionada");
+        
+        
+        
+        String fecha =(String)request.getParameter("fecha");
+               
+        String motivo=(String)request.getParameter("motivo");
+                
+               
+        controladora.crearTurno(odontologo, paciente,fecha, hora, motivo);
+      
+       response.sendRedirect("index.jsp");
+       
         
     }
 

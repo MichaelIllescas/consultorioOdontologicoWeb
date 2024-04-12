@@ -9,6 +9,7 @@ import java.util.logging.Logger;
 import logica.Odontologo;
 import logica.Paciente;
 import logica.Responsable;
+import logica.Turno;
 import logica.Usuario;
 import persistencia.exceptions.NonexistentEntityException;
 
@@ -163,6 +164,12 @@ public class ControladoraPersistencia {
         } catch (Exception ex) {
             Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+
+  
+
+    public void crearTurno(Turno turno) {
+        turnoJPA.create(turno);
     }
 
     

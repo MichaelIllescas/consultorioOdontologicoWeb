@@ -32,14 +32,7 @@
                              
                             </tr>
                         </thead>
-                        <tfoot>
-                            <tr>
-                                 <th>Id</th>
-                                <th>Nombre de Usuario</th>
-                                <th>Rol</th>
-                                <th style="width:210px">Acción</th>
-                            </tr>
-                        </tfoot>
+                       
                         
                         <%    List<Usuario>listaDeUsuarios= (List)request.getSession().getAttribute("listaUsu");                         %>
                         
@@ -53,16 +46,16 @@
                                 <td style="display:flex; width:210px;">
                                     <form name="eliminar" action="SvEliminarUsuarios" method="POST">
                                         
-                                        <button type="submit" class="btn btn-primary  btn-user btn-block " style="background-color: red; margin-right: 5px"/>
-                                        <i class="fas fa-trash-alt"></i> Eliminar
+                                        <button type="submit" class="btn btn-danger  btn-user btn-circle " />
+                                        <i class="fas fa-trash-alt"></i> 
                                         </button>
                                         <input type="hidden" name="id" value="<%=usu.getId_usuario()%>"> 
                                     
                                     </form>
                                         <form name="editar" action="SvEditarUsuarios" method="GET">
                                         
-                                            <button type="submit" class="btn btn-primary  btn-user btn-block " style=" margin-left: 5px;"/>
-                                            <i class="fas fa-pencil-alt"></i> Editar  
+                                            <button type="submit" class="btn btn-primary  btn-user btn-circle " />
+                                            <i class="fas fa-pencil-alt"></i>   
                                             </button>
                                             
                                             <input type="hidden"name="id" class="btn btn-primary  btn-user btn-block " value="<%=usu.getId_usuario()%>" />
