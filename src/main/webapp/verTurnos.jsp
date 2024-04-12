@@ -4,6 +4,9 @@
     Author     : jonii
 --%>
 
+<%@page import="logica.Utilitaria"%>
+<%@page import="logica.Turno"%>
+<%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
@@ -30,7 +33,9 @@
             <div class="table-responsive table-responsive-sm">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
-                        <tr>
+                       
+              
+                     <tr>     
                             <th>ID Turno</th>
                             <th>Nombre del Paciente</th>
                             <th>Fecha del Turno</th>
@@ -39,14 +44,16 @@
                             <th>Acciones</th>
                         </tr>
                     </thead>
-                    <tbody>
-                      
+                    <tbody>   
+                        <%    List<Turno>listaTurnos= (List)request.getSession().getAttribute("turnos");                  
+                        %>
+                        <%for(Turno tur: listaTurnos){%>
                         <tr>
-                            <td>id</td>
-                            <td>juan</td>
-                            <td>perez</td>
-                            <td>hora</td>
-                            <td>odontologo</td>
+                            <td><%=tur.getId_turno()%></td>
+                            <td><%=tur.getPaciente().getNombre()+ " " + tur.getPaciente().getApellido()%></td>
+                            <td><%=   Utilitaria.dateToString(tur.getFecha_turno())%></td>
+                            <td><%=tur.getHora_turno() %></td>
+                            <td><%=tur.getOdontologo().getNombre()+ " " + tur.getOdontologo().getApellido()%></td>
                             <td>
                                 <a href="#" class="btn btn-primary btn-circle btn-sm">
                                     <i class="fas fa-eye"></i>
@@ -60,7 +67,7 @@
                             </td>
                         </tr>
                         
-                        
+                        <%}%>   
                     </tbody>
                 </table>
             </div>

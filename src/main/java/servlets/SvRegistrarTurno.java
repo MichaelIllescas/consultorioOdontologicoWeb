@@ -14,6 +14,7 @@ import javax.servlet.http.HttpSession;
 import logica.Controladora;
 import logica.Odontologo;
 import logica.Paciente;
+import logica.Utilitaria;
 
 /**
  *
@@ -45,17 +46,25 @@ public class SvRegistrarTurno extends HttpServlet {
          HttpSession session=request.getSession();
        
         
+        String odonId=(String)request.getParameter("odontologo");
         
         
-        Odontologo odontologo= (Odontologo) session.getAttribute("odon");
+        Odontologo odontologo= (Odontologo) controladora.traerOdontologo(Integer.parseInt(odonId));
         
-        Paciente paciente=(Paciente)session.getAttribute("paciente");
+        
+          String pacienteId = request.getParameter("paciente");
+   
+   
+
+        Paciente paciente=(Paciente)controladora.traerPaciente(Integer.parseInt(pacienteId));
         
         String hora= (String) request.getParameter( "horaseleccionada");
         
         
         
         String fecha =(String)request.getParameter("fecha");
+        
+        
                
         String motivo=(String)request.getParameter("motivo");
                 

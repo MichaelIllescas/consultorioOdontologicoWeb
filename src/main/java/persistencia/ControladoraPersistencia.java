@@ -172,6 +172,10 @@ public class ControladoraPersistencia {
         turnoJPA.create(turno);
     }
 
+    public List<Turno> getTurnos() {
+       return turnoJPA.findTurnoEntities();
+    }
+
     
     
 

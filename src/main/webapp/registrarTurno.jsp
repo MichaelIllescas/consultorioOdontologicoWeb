@@ -17,34 +17,43 @@
         <p class="mb-4">A continuación, podrá asignar turno a un paciente registrado en el sistema.</p>
     </div>
     <% List<Odontologo> listaOdontologos = (List) request.getSession().getAttribute("listaOdo");
-       List<Paciente> listaPacientes = (List) request.getSession().getAttribute("listaPac");
+        List<Paciente> listaPacientes = (List) request.getSession().getAttribute("listaPac");
     %>
     <form action="SvRegistrarTurno" method="POST" class="mt-4">
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <div class="form-group">
                     <label for="miListaDesplegable">Selecciona un Odontólogo:</label>
-                    <select id="miListaDesplegable"  class="form-control form-control-lg">
+                    <select id="miListaDesplegable"  class="form-control form-control-lg" name="odontologo">
                         <%for (Odontologo odo : listaOdontologos) {%>
-                        <option value="<%=odo.getId()%>"><%=odo.getNombre() + " " + odo.getApellido()%></option>
-                        <%
-                            miSession.setAttribute("odon", odo);}%>
+                        <option  value="<%=odo.getId()%>"><%=odo.getNombre() + " " + odo.getApellido()%></option>
+                        <%}%>
                     </select>
+
+
                 </div>
+
                 <div class="form-group">
+                    <% for (Paciente pac : listaPacientes) {%>
                     <label for="listaPacientes">Selecciona un Paciente:</label>
-                    <input name="listaPacientes" id="listaPacientes" type="browsers" class="form-control form-control-lg" value="" list="listaBuscadora">
+                    <input name="paciente" id="listaPacientes" type="search" class="form-control form-control-lg" list="listaBuscadora" value="<%=pac.getId()%>">
                     <datalist id="listaBuscadora">
-                        <%for (Paciente pac : listaPacientes) {%>
-                        <option name="paciente" value="<%=pac.getNombre() + " " + pac.getApellido() + ", DNI: " + pac.getDni()  %>"></option>
-                        <%
-                            miSession.setAttribute("paciente", pac);}%> 
+                        
+                        <!-- Mostrar el nombre, apellido y DNI del paciente como opción en el datalist -->
+                        <option  value=" <%= pac.getNombre() + " " + pac.getApellido() + ", DNI: " + pac.getDni()%>">  
+                       
+                         
+                          </option>           
+                          
+                        <% }%>
                     </datalist>
                 </div>
                 <div class="form-group">
                     <label for="fecha">Seleccione una fecha:</label>
-                    <input type="text" class="form-control form-control-lg" id="fecha" name="fecha">
+                    <input type="date" class="form-control form-control-user" id="fecha" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fecha" required>
                 </div>
+
+
                 <div class="form-group">
                     <label for="hora">Seleccione una hora:</label>
                     <select class="form-select form-control-lg" id="hora" name="horaseleccionada">
@@ -58,15 +67,15 @@
                         <option  value="11:30">11:30 AM</option>
                     </select>
                 </div>
-                    <div class="form-group">
+                <div class="form-group">
                     <label for="motivo">Motivo:</label>
-                    <input type="text" class="form-control form-control-lg" id="motivo" name="motivo">
-                       
+                    <input type="text" class="form-control  form-control-user " id="motivo" name="motivo">
+
                     </input>
                 </div>
-                    
-                    
-                    
+
+
+
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary mt-5">Reservar Turno</button>
                 </div>
@@ -75,13 +84,16 @@
     </form>
 </div>
 
-            
 
 
 
-    <!-- /.container-fluid -->
+
+<!-- /.container-fluid -->
+
+<script src="/bootstrap-datepicker-1.9.0-dist/js/bootstrap-datepicker.js"></script>
+<script src="/bootstrap-datepicker-1.9.0-dist/js/bootstrap-datepicker.min.js"></script>
 
 
 
-    <%@include file="components/bodyFinal.jsp" %>
+<%@include file="components/bodyFinal.jsp" %>
 

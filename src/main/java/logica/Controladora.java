@@ -208,5 +208,9 @@ public class Controladora {
         
     }
 
+    public List<Turno> getTurnos() {
+       return controladoraPersisntencia.getTurnos();
+    }
+
 
 }
