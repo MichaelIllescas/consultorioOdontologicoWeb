@@ -30,6 +30,7 @@ logica\Secretario_.class
 persistencia\HorarioJpaController1.class
 persistencia\UsuarioJpaController.class
 servlets\SvAltaPAcienteMayor.class
+servlets\SvVerTurnos.class
 servlets\SVAtaPacienteMenor.class
 persistencia\ResponsableJpaController2.class
 persistencia\ControladoraPersistencia.class

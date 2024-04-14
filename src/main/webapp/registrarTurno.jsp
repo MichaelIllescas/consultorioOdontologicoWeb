@@ -34,13 +34,13 @@
                 </div>
 
                 <div class="form-group">
-                    <% for (Paciente pac : listaPacientes) {%>
+                   
                     <label for="listaPacientes">Selecciona un Paciente:</label>
-                    <input name="paciente" id="listaPacientes" type="search" class="form-control form-control-lg" list="listaBuscadora" value="<%=pac.getId()%>">
+                    <input name="paciente" id="listaPacientes" type="search" class="form-control form-control-lg" list="listaBuscadora">
                     <datalist id="listaBuscadora">
-                        
+                         <% for (Paciente pac : listaPacientes) {%>
                         <!-- Mostrar el nombre, apellido y DNI del paciente como opción en el datalist -->
-                        <option  value=" <%= pac.getNombre() + " " + pac.getApellido() + ", DNI: " + pac.getDni()%>">  
+                        <option  value="<%=pac.getId() + "     "+ pac.getNombre() + " " + pac.getApellido() + ", DNI: " + pac.getDni()%>">  
                        
                          
                           </option>           

@@ -35,6 +35,7 @@ public class SvRegistrarTurno extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+        response.sendRedirect("registrarTurno.jsp");
     }
 
     @Override
@@ -52,7 +53,7 @@ public class SvRegistrarTurno extends HttpServlet {
         Odontologo odontologo= (Odontologo) controladora.traerOdontologo(Integer.parseInt(odonId));
         
         
-          String pacienteId = request.getParameter("paciente");
+          String pacienteId = request.getParameter("paciente").substring(0,6).trim();
    
    
 

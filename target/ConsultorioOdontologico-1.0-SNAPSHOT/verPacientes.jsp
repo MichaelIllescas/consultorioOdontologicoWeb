@@ -36,9 +36,7 @@
                                 <th>Obra Social</th>
                                 <th>Tipo de Sangre</th>
                                 <th>Responsable</th>
-                                
-                                
-                                <th style="width:210px">Acción</th>
+                                <th>Acción</th>
                                 
                              
                             </tr>
@@ -73,7 +71,7 @@
                                  <%}%>
                                  </td> 
                                   
-                                <td style="display:flex; width:210px;">
+                                <td style="display:flex;">
                                     <form name="eliminar" action="SvEliminarPaciente" method="POST">
                                         
                                         <button type="submit" class="btn btn-circle btn-danger btn-user "/>
@@ -84,11 +82,11 @@
                                     </form>
                                         <form name="editar" action="SvEditarPaciente" method="GET">
                                         
-                                            <button type="submit" class="btn btn-primary  btn-user btn-circle " style=" margin-left: 5px;"/>
+                                            <button type="submit" class="btn btn-primary  btn-user btn-circle " style=" margin-right:  5px;"/>
                                             <i class="fas fa-pencil-alt"></i>   
                                             </button>
                                             
-                                            <input type="hidden" name="id" class="btn btn-primary  btn-user btn-block " value="<%=pac.getId()%>" />
+                                            <input type="hidden" name="id" class="btn btn-primary  " value="<%=pac.getId()%>" />
                                             
                                      
                                     </form>

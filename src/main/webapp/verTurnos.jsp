@@ -36,7 +36,7 @@
                        
               
                      <tr>     
-                            <th>ID Turno</th>
+                            
                             <th>Nombre del Paciente</th>
                             <th>Fecha del Turno</th>
                             <th>Hora del Turno</th>
@@ -49,7 +49,7 @@
                         %>
                         <%for(Turno tur: listaTurnos){%>
                         <tr>
-                            <td><%=tur.getId_turno()%></td>
+                           
                             <td><%=tur.getPaciente().getNombre()+ " " + tur.getPaciente().getApellido()%></td>
                             <td><%=   Utilitaria.dateToString(tur.getFecha_turno())%></td>
                             <td><%=tur.getHora_turno() %></td>

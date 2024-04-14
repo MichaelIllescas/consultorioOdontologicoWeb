@@ -30,14 +30,14 @@
     <div id="wrapper" >
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.jsp">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-solid fa-tooth"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Consultorio Odontológico</div>
+                <div class="sidebar-brand-text mx-2">healthy teeth</div>
             </a>
 
             <!-- Divider -->
@@ -46,9 +46,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                
-                  <button id="sidebarToggleTop" class="btn btn-link  rounded-circle mr-3 nav-link">
-                        <i class="fa fa-bars"></i><span>Menu</span>
-                    </button>
+                  
 
                 
             </li>
@@ -69,7 +67,7 @@
                     <span>Odontólogos</span>
                 </a>
                 <div id="collapse-header" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
+                    <div class="bg-white py-2 collapse-inner rounded border-bottom-secondary">
                         <h6 class="collapse-header">Acciones:</h6>
                         <a class="collapse-item" href="altaOdontologo.jsp">Alta Odontontólogo</a>
                         <a class="collapse-item" href="SvAltaOdondologos">Ver Odontontólogos</a>
@@ -78,13 +76,13 @@
                 </div>
             </li>
               <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                <a class="nav-link collapsed dropdown " href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-solid fa-hospital-user"></i>
+                    <i class="fas fa-solid fa-hospital-user "></i>
                     <span>Pacientes</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
+                    <div class="bg-white py-2 collapse-inner rounded border-bottom-secondary">
                         <h6 class="collapse-header">Acciones:</h6>
                         <a class="collapse-item" href="pacientesSeleccion.jsp">Alta Paciente</a>
                         <a class="collapse-item" href="SvAltaPAcienteMayor">Ver Pacientes</a>
@@ -103,7 +101,7 @@
                 </a>
                 <div id="collapseUsers" class="collapse" aria-labelledby="collapseUsers"
                     data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
+                    <div class="bg-white py-2 collapse-inner rounded border-bottom-secondary">
                         <h6 class="collapse-header">Acciones: </h6>
                         <a class="collapse-item" href="SvUsuarios">Ver Usuarios</a>
                         <a class="collapse-item" href="altaUsuarios.jsp">Alta Usuario</a>
@@ -112,15 +110,15 @@
                 </div>
             </li>
              <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse-header-turnos"
-                    aria-expanded="true" aria-controls="collapse-">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
                    <i class="fas fa-solid fa-clipboard-list"></i>
                     <span>Trunos</span>
                 </a>
-                <div id="collapse-header-turnos" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
+                <div id="collapseUtilities" class="collapse " aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded border-bottom-secondary">
                         <h6 class="collapse-header">Acciones:</h6>
-                        <a class="collapse-item" href="registrarTurno.jsp">Asignar Turno</a>
+                        <a class="collapse-item" href="SvRegistrarTurno">Asignar Turno</a>
                         <a class="collapse-item" href="SvVerTurnos">Ver Reservas</a>
                         
                     </div>
@@ -136,19 +134,23 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
             <form action="SvCargarDatosTurno" method="GET">
-            <div class="container-fluid ">
+            <div class="container-fluid mt-5">
 
                 <div class="text-center d-flex justify-content-center align-items-center">
 
-                    <button type="submit" class="btn btn-primary">Asignar Turno</button>
+                    <button type="submit" class="btn bg-gradient-light ">Asignar Turno</button>
                      
                 </div>
             </div>
             </form>
 
+           
         </ul>
         <!-- End of Sidebar -->
 
+        <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -201,6 +203,7 @@
                         </li>
 
                     </ul>
+                                
 
                 </nav>
                 <!-- End of Topbar -->

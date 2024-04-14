@@ -29,7 +29,7 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 
-    <body class="bg-gradient-primary">
+    <body class="bg-gradient-dark">
 
          <%HttpSession miSession= request.getSession();
       miSession.removeAttribute("usuario");

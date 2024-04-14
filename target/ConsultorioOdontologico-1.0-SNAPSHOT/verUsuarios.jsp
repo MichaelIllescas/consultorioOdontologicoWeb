@@ -27,7 +27,7 @@
                                 <th>Id</th>
                                 <th>Nombre de Usuario</th>
                                 <th>Rol</th>
-                                <th style="width:210px">Acción</th>
+                                <th>Acción</th>
                                 
                              
                             </tr>
@@ -43,7 +43,7 @@
                                 <td id="id_usu<%= usu.getId_usuario()  %>"><%= usu.getId_usuario()  %></td>
                                 <td><%= usu.getNombre_usuario()  %></td>
                                 <td><%= usu.getRol() %></td>
-                                <td style="display:flex; width:210px;">
+                                <td style="display:flex; ">
                                     <form name="eliminar" action="SvEliminarUsuarios" method="POST">
                                         
                                         <button type="submit" class="btn btn-danger  btn-user btn-circle " />
@@ -52,13 +52,13 @@
                                         <input type="hidden" name="id" value="<%=usu.getId_usuario()%>"> 
                                     
                                     </form>
-                                        <form name="editar" action="SvEditarUsuarios" method="GET">
+                                        <form " name="editar" action="SvEditarUsuarios" method="GET">
                                         
                                             <button type="submit" class="btn btn-primary  btn-user btn-circle " />
                                             <i class="fas fa-pencil-alt"></i>   
                                             </button>
                                             
-                                            <input type="hidden"name="id" class="btn btn-primary  btn-user btn-block " value="<%=usu.getId_usuario()%>" />
+                                            <input type="hidden"name="id" class="btn btn-primary  btn-user " value="<%=usu.getId_usuario()%>" style="margin-right: 5px;" />
         
                                     </form>
                                 

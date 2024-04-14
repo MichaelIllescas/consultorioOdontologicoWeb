@@ -32,7 +32,7 @@
                                 <th>Dirección</th>
                                 <th>DNI</th>
                                 <th>Especialidad</th>
-                                <th style="width:210px">Acción</th>
+                                <th>Acción</th>
                                 
                              
                             </tr>
@@ -52,7 +52,7 @@
                                 <th>Dirección</th>
                                 <th>DNI</th>
                                 <th>Especialidad</th>
-                                <th style="width:210px">Acción</th>
+                                <th>Acción</th>
                             </tr>
                         </tfoot>
      
@@ -67,7 +67,7 @@
                                   <td><%=odo.getDni()%></td>
                                  <td><%=odo.getEspecialidad()%></td>
                                   
-                                <td style="display:flex; width:210px;">
+                                <td style="display:flex;">
                                     <form name="eliminar" action="SvEliminarOdontologos" method="POST">
                                         
                                         <button type="submit" class="btn btn-user btn-circle btn-danger"/>
@@ -78,11 +78,11 @@
                                     </form>
                                         <form name="editar" action="SvEditarOdontologo" method="GET">
                                         
-                                            <button type="submit" class="btn btn-circle  btn-primary  btn-user " style=" margin-left: 5px;"/>
+                                            <button type="submit" class="btn btn-circle  btn-primary  btn-user "/>
                                             <i class="fas fa-pencil-alt"></i>   
                                             </button>
                                             
-                                            <input type="hidden" name="id" class="btn btn-primary  btn-user btn-block " value="<%=odo.getId()%>" />
+                                            <input type="hidden" name="id" class="btn btn-primary  btn-user " style="margin-left: 5px" value="<%=odo.getId()%>" />
                                             
         
                                     </form>
