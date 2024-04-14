@@ -1,0 +1,855 @@
+14-Apr-2024 13:48:57.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.87
+14-Apr-2024 13:48:57.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 11 2024 10:12:34 UTC
+14-Apr-2024 13:48:57.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.87.0
+14-Apr-2024 13:48:57.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+14-Apr-2024 13:48:57.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+14-Apr-2024 13:48:57.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+14-Apr-2024 13:48:57.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18.0.2.1
+14-Apr-2024 13:48:57.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+14-Apr-2024 13:48:57.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+14-Apr-2024 13:48:57.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 13:48:57.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 13:48:58.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Apr-2024 13:48:58.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+14-Apr-2024 13:48:58.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+14-Apr-2024 13:48:58.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Apr-2024 13:48:58.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Apr-2024 13:48:58.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\logging.properties
+14-Apr-2024 13:48:58.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2024 13:48:58.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2024 13:48:58.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2024 13:48:58.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+14-Apr-2024 13:48:58.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 13:48:58.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 13:48:58.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\temp
+14-Apr-2024 13:48:59.226 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.0] con la versión APR [1.7.4].
+14-Apr-2024 13:48:59.230 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+14-Apr-2024 13:48:59.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Apr-2024 13:48:59.818 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.13 30 Jan 2024]
+14-Apr-2024 13:49:06.821 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+14-Apr-2024 13:49:07.609 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [17199] milliseconds
+14-Apr-2024 13:49:08.542 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+14-Apr-2024 13:49:08.542 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+14-Apr-2024 13:49:08.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 13:49:09.077 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 13:49:19.553 WARNING [main] java.util.ArrayList.forEach Name = clinica_odonto Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+14-Apr-2024 13:49:19.554 WARNING [main] java.util.ArrayList.forEach Name = clinica_odonto Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+14-Apr-2024 13:49:19.681 WARNING [main] java.util.ArrayList.forEach Name = datos Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+14-Apr-2024 13:49:19.681 WARNING [main] java.util.ArrayList.forEach Name = datos Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+14-Apr-2024 13:49:20.009 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:49:20.517 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [340] milliseconds.
+14-Apr-2024 13:49:20.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [11.924] ms
+14-Apr-2024 13:49:20.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml]
+14-Apr-2024 13:49:20.760 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PruebasFrontBack] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml] has been ignored
+14-Apr-2024 13:49:33.865 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:49:34.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml] has finished in [13.298] ms
+14-Apr-2024 13:49:34.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\docs] de la aplicación web
+14-Apr-2024 13:49:37.373 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:49:37.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\docs] has finished in [3.340] ms
+14-Apr-2024 13:49:37.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\examples] de la aplicación web
+14-Apr-2024 13:49:43.088 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:49:43.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\examples] has finished in [6.425] ms
+14-Apr-2024 13:49:43.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\host-manager] de la aplicación web
+14-Apr-2024 13:49:45.645 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:49:45.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\host-manager] has finished in [1.855] ms
+14-Apr-2024 13:49:45.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\manager] de la aplicación web
+14-Apr-2024 13:49:47.734 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:49:47.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\manager] has finished in [2.068] ms
+14-Apr-2024 13:49:47.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\ROOT] de la aplicación web
+14-Apr-2024 13:49:49.332 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:49:49.340 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\ROOT] has finished in [1.591] ms
+14-Apr-2024 13:49:49.401 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 13:49:49.869 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [42244] milliseconds
+14-Apr-2024 13:49:58.940 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 13:49:59.681 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 13:49:59.692 WARNING [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 13:50:03.028 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:50:03.053 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [3.372] ms
+14-Apr-2024 13:50:03.108 INFO [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 13:50:48.643 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 13:50:48.758 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 13:50:48.762 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 13:50:53.397 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:50:53.413 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [4.655] ms
+14-Apr-2024 13:50:53.419 INFO [http-nio-8080-exec-19] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 13:52:43.897 WARNING [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:52:44.403 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 13:52:44.630 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 13:52:44.634 WARNING [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 13:52:48.837 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:52:49.689 INFO [http-nio-8080-exec-23] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:52:49.705 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [5.075] ms
+14-Apr-2024 13:54:03.515 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+14-Apr-2024 13:54:03.518 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 13:54:03.570 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+14-Apr-2024 13:54:03.620 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:79)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:885)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1002)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:54:03.730 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PruebasFrontBack] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:54:03.850 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 13:54:03.925 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 13:56:38.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.87
+14-Apr-2024 13:56:38.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 11 2024 10:12:34 UTC
+14-Apr-2024 13:56:38.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.87.0
+14-Apr-2024 13:56:38.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+14-Apr-2024 13:56:38.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+14-Apr-2024 13:56:38.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+14-Apr-2024 13:56:38.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18.0.2.1
+14-Apr-2024 13:56:38.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+14-Apr-2024 13:56:38.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+14-Apr-2024 13:56:38.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 13:56:38.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 13:56:38.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Apr-2024 13:56:38.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+14-Apr-2024 13:56:38.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+14-Apr-2024 13:56:38.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Apr-2024 13:56:38.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Apr-2024 13:56:38.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\logging.properties
+14-Apr-2024 13:56:38.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2024 13:56:38.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2024 13:56:38.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2024 13:56:38.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+14-Apr-2024 13:56:38.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 13:56:38.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 13:56:38.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\temp
+14-Apr-2024 13:56:38.342 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.0] con la versión APR [1.7.4].
+14-Apr-2024 13:56:38.343 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+14-Apr-2024 13:56:38.343 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Apr-2024 13:56:38.365 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.13 30 Jan 2024]
+14-Apr-2024 13:56:39.500 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+14-Apr-2024 13:56:39.672 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2301] milliseconds
+14-Apr-2024 13:56:39.849 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+14-Apr-2024 13:56:39.850 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+14-Apr-2024 13:56:39.878 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 13:56:39.947 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 13:56:44.584 WARNING [main] java.util.ArrayList.forEach Name = clinica_odonto Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+14-Apr-2024 13:56:44.584 WARNING [main] java.util.ArrayList.forEach Name = clinica_odonto Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+14-Apr-2024 13:56:44.672 WARNING [main] java.util.ArrayList.forEach Name = datos Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+14-Apr-2024 13:56:44.673 WARNING [main] java.util.ArrayList.forEach Name = datos Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+14-Apr-2024 13:56:44.828 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:56:45.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [5.169] ms
+14-Apr-2024 13:56:45.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml]
+14-Apr-2024 13:56:45.054 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PruebasFrontBack] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml] has been ignored
+14-Apr-2024 13:56:49.089 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:56:49.108 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml] has finished in [4.057] ms
+14-Apr-2024 13:56:49.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\docs] de la aplicación web
+14-Apr-2024 13:56:53.317 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:56:53.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\docs] has finished in [4.227] ms
+14-Apr-2024 13:56:53.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\examples] de la aplicación web
+14-Apr-2024 13:56:55.997 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:56:56.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\examples] has finished in [2.877] ms
+14-Apr-2024 13:56:56.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\host-manager] de la aplicación web
+14-Apr-2024 13:56:58.217 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:56:58.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\host-manager] has finished in [2.015] ms
+14-Apr-2024 13:56:58.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\manager] de la aplicación web
+14-Apr-2024 13:56:59.521 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:56:59.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\manager] has finished in [1.305] ms
+14-Apr-2024 13:56:59.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\ROOT] de la aplicación web
+14-Apr-2024 13:57:00.899 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:57:00.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\ROOT] has finished in [1.372] ms
+14-Apr-2024 13:57:00.922 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 13:57:01.050 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [21380] milliseconds
+14-Apr-2024 13:57:08.995 WARNING [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:57:09.536 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 13:57:09.676 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 13:57:09.681 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 13:57:13.168 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:57:13.196 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [3.520] ms
+14-Apr-2024 13:57:13.202 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 13:57:14.180 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:57:48.625 WARNING [http-nio-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.invoke.VarHandleLongs$FieldInstanceReadWrite.weakCompareAndSetRelease(VarHandleLongs.java:241)
+ java.base@18.0.2.1/java.lang.invoke.VarHandleGuards.guard_LJJ_Z(VarHandleGuards.java:204)
+ java.base@18.0.2.1/java.util.concurrent.atomic.Striped64.casBase(Striped64.java:181)
+ java.base@18.0.2.1/java.util.concurrent.atomic.LongAdder.add(LongAdder.java:87)
+ java.base@18.0.2.1/java.util.concurrent.atomic.LongAdder.increment(LongAdder.java:101)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:74)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:885)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1002)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:57:49.134 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 13:57:49.190 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 13:57:49.214 WARNING [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 13:57:53.635 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:57:54.441 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 13:57:54.469 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [5.278] ms
+14-Apr-2024 13:57:54.598 INFO [http-nio-8080-exec-15] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 13:58:48.484 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 13:58:48.999 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 13:58:53.515 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:00:31.386 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:00:31.403 WARNING [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:00:35.500 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:00:35.555 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [4.168] ms
+14-Apr-2024 14:00:35.585 INFO [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 14:01:42.244 WARNING [http-nio-8080-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.base@18.0.2.1/java.io.FileSystem.hasBooleanAttributes(FileSystem.java:125)
+ java.base@18.0.2.1/java.io.File.isFile(File.java:898)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:69)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:94)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:96)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:885)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1002)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:01:42.774 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:01:42.888 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:01:42.891 WARNING [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:01:46.895 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:01:46.907 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [4.018] ms
+14-Apr-2024 14:01:46.912 INFO [http-nio-8080-exec-31] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 14:01:47.310 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:02:33.796 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:02:33.860 WARNING [http-nio-8080-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.io.WinNTFileSystem.canonicalize0(Native Method)
+ java.base@18.0.2.1/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:462)
+ java.base@18.0.2.1/java.io.File.getCanonicalPath(File.java:626)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:94)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:94)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:96)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:885)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1002)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:02:38.135 INFO [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:02:38.158 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+14-Apr-2024 14:02:38.258 WARNING [http-nio-8080-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [Catalina-utility-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5269)
+ org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+ org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+ org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+ org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+ java.base@18.0.2.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+ java.base@18.0.2.1/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+ java.base@18.0.2.1/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:02:38.258 WARNING [http-nio-8080-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:02:38.771 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:02:38.862 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:02:38.867 WARNING [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:02:38.883 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:02:42.418 INFO [http-nio-8080-exec-31] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:02:42.428 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [3.566] ms
+14-Apr-2024 14:02:42.432 INFO [http-nio-8080-exec-31] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 14:02:43.320 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:12:28.800 WARNING [http-nio-8080-exec-52] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:12:29.334 INFO [http-nio-8080-exec-52] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:12:33.813 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:16:46.069 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:16:46.165 WARNING [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:16:53.892 INFO [http-nio-8080-exec-62] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:16:53.911 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [7.843] ms
+14-Apr-2024 14:16:53.926 INFO [http-nio-8080-exec-48] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 14:17:06.740 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+14-Apr-2024 14:17:06.741 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 14:17:06.784 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+14-Apr-2024 14:17:06.875 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.io.WinNTFileSystem.canonicalize0(Native Method)
+ java.base@18.0.2.1/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:462)
+ java.base@18.0.2.1/java.io.File.getCanonicalPath(File.java:626)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:94)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:94)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:96)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:885)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1002)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:17:07.000 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PruebasFrontBack] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.io.WinNTFileSystem.canonicalize0(Native Method)
+ java.base@18.0.2.1/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:462)
+ java.base@18.0.2.1/java.io.File.getCanonicalPath(File.java:626)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:94)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:94)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:96)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:885)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1002)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:17:07.020 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 14:17:07.033 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 14:41:56.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.87
+14-Apr-2024 14:41:56.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 11 2024 10:12:34 UTC
+14-Apr-2024 14:41:56.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.87.0
+14-Apr-2024 14:41:56.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+14-Apr-2024 14:41:56.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+14-Apr-2024 14:41:56.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+14-Apr-2024 14:41:56.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18.0.2.1
+14-Apr-2024 14:41:56.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+14-Apr-2024 14:41:56.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+14-Apr-2024 14:41:56.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 14:41:56.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 14:41:56.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Apr-2024 14:41:56.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+14-Apr-2024 14:41:56.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+14-Apr-2024 14:41:56.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Apr-2024 14:41:56.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Apr-2024 14:41:56.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\logging.properties
+14-Apr-2024 14:41:56.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2024 14:41:56.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2024 14:41:56.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2024 14:41:56.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+14-Apr-2024 14:41:56.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 14:41:56.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87
+14-Apr-2024 14:41:56.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\temp
+14-Apr-2024 14:41:56.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.0] con la versión APR [1.7.4].
+14-Apr-2024 14:41:56.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+14-Apr-2024 14:41:56.669 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Apr-2024 14:41:56.752 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.13 30 Jan 2024]
+14-Apr-2024 14:41:58.219 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+14-Apr-2024 14:41:58.502 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2954] milliseconds
+14-Apr-2024 14:41:58.691 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+14-Apr-2024 14:41:58.692 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+14-Apr-2024 14:41:58.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:41:58.887 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:42:06.524 WARNING [main] java.util.ArrayList.forEach Name = clinica_odonto Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+14-Apr-2024 14:42:06.525 WARNING [main] java.util.ArrayList.forEach Name = clinica_odonto Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+14-Apr-2024 14:42:06.616 WARNING [main] java.util.ArrayList.forEach Name = datos Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+14-Apr-2024 14:42:06.617 WARNING [main] java.util.ArrayList.forEach Name = datos Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+14-Apr-2024 14:42:06.619 WARNING [main] java.util.ArrayList.forEach Name = ultima Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+14-Apr-2024 14:42:06.619 WARNING [main] java.util.ArrayList.forEach Name = ultima Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+14-Apr-2024 14:42:06.740 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:42:06.992 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [171] milliseconds.
+14-Apr-2024 14:42:07.150 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [8.364] ms
+14-Apr-2024 14:42:07.153 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml]
+14-Apr-2024 14:42:07.157 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PruebasFrontBack] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml] has been ignored
+14-Apr-2024 14:42:14.255 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:42:14.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml] has finished in [7.115] ms
+14-Apr-2024 14:42:14.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\docs] de la aplicación web
+14-Apr-2024 14:42:16.502 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:42:16.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\docs] has finished in [2.232] ms
+14-Apr-2024 14:42:16.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\examples] de la aplicación web
+14-Apr-2024 14:42:22.319 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:42:22.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\examples] has finished in [6.162] ms
+14-Apr-2024 14:42:22.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\host-manager] de la aplicación web
+14-Apr-2024 14:42:24.351 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:42:24.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\host-manager] has finished in [1.718] ms
+14-Apr-2024 14:42:24.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\manager] de la aplicación web
+14-Apr-2024 14:42:26.241 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:42:26.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\manager] has finished in [1.875] ms
+14-Apr-2024 14:42:26.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\ROOT] de la aplicación web
+14-Apr-2024 14:42:28.351 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:42:28.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\webapps\ROOT] has finished in [2.095] ms
+14-Apr-2024 14:42:28.398 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 14:42:28.898 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [30399] milliseconds
+14-Apr-2024 14:43:07.980 WARNING [http-nio-8080-exec-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:43:08.590 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:43:08.730 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:43:08.746 WARNING [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:43:12.982 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:43:13.766 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:43:13.787 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [5.054] ms
+14-Apr-2024 14:43:13.797 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 14:44:12.032 WARNING [http-nio-8080-exec-17] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.io.WinNTFileSystem.getLastModifiedTime(Native Method)
+ java.base@18.0.2.1/java.io.File.lastModified(File.java:972)
+ org.apache.catalina.webresources.FileResource.getLastModified(FileResource.java:92)
+ org.apache.catalina.webresources.CachedResource.getLastModified(CachedResource.java:185)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:106)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:96)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:885)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1002)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:44:12.548 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:44:17.086 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:46:38.430 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:46:38.465 WARNING [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:46:45.155 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:46:45.184 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [6.755] ms
+14-Apr-2024 14:46:45.204 INFO [http-nio-8080-exec-22] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 14:48:14.953 WARNING [http-nio-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:48:15.484 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:48:15.593 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:48:15.593 WARNING [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:48:19.990 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:48:21.447 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:48:21.457 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [5.864] ms
+14-Apr-2024 14:48:21.500 INFO [http-nio-8080-exec-25] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 14:53:19.931 WARNING [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:53:20.477 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:53:20.533 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:53:20.536 WARNING [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:53:24.452 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:53:24.467 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [3.933] ms
+14-Apr-2024 14:53:24.859 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:53:30.098 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:53:30.134 WARNING [http-nio-8080-exec-35] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.StringLatin1.hashCode(StringLatin1.java:193)
+ java.base@18.0.2.1/java.lang.String.hashCode(String.java:2338)
+ java.base@18.0.2.1/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1012)
+ java.base@18.0.2.1/java.util.concurrent.ConcurrentHashMap.putIfAbsent(ConcurrentHashMap.java:1541)
+ java.base@18.0.2.1/java.lang.ClassLoader.getClassLoadingLock(ClassLoader.java:667)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:53:35.152 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:53:36.081 INFO [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:53:36.106 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+14-Apr-2024 14:53:38.042 WARNING [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:53:38.556 INFO [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 14:53:38.724 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 14:53:38.727 WARNING [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 14:53:43.058 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:53:44.196 INFO [http-nio-8080-exec-39] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 14:53:44.209 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [5.488] ms
+14-Apr-2024 14:53:44.232 INFO [http-nio-8080-exec-34] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 14:55:09.796 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+14-Apr-2024 14:55:09.803 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 14:55:09.845 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+14-Apr-2024 14:55:09.924 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:55:10.039 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PruebasFrontBack] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 14:55:10.065 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 14:55:10.139 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 15:16:02.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.87
+14-Apr-2024 15:16:02.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 11 2024 10:12:34 UTC
+14-Apr-2024 15:16:02.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.87.0
+14-Apr-2024 15:16:02.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+14-Apr-2024 15:16:02.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+14-Apr-2024 15:16:02.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+14-Apr-2024 15:16:02.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18.0.2.1
+14-Apr-2024 15:16:02.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+14-Apr-2024 15:16:02.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+14-Apr-2024 15:16:02.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87
+14-Apr-2024 15:16:02.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\logging.properties
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87
+14-Apr-2024 15:16:02.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\temp
+14-Apr-2024 15:16:02.816 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.0] con la versión APR [1.7.4].
+14-Apr-2024 15:16:02.816 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+14-Apr-2024 15:16:02.816 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Apr-2024 15:16:02.889 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.13 30 Jan 2024]
+14-Apr-2024 15:16:03.835 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+14-Apr-2024 15:16:03.941 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2429] milliseconds
+14-Apr-2024 15:16:04.128 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+14-Apr-2024 15:16:04.129 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+14-Apr-2024 15:16:04.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 15:16:04.244 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 15:16:04.370 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2cb2fc20]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\jonii\OneDrive\Escritorio\Consultorio Odontologico\consultorioOdontologicoWeb-master\target\ConsultorioOdontologico-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+14-Apr-2024 15:16:04.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [384] ms
+14-Apr-2024 15:16:04.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml]
+14-Apr-2024 15:16:04.608 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PruebasFrontBack] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml] has been ignored
+14-Apr-2024 15:16:09.593 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:16:09.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\PruebasFrontBack.xml] has finished in [5.209] ms
+14-Apr-2024 15:16:09.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\docs] de la aplicación web
+14-Apr-2024 15:16:11.306 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:16:11.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\docs] has finished in [1.496] ms
+14-Apr-2024 15:16:11.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\examples] de la aplicación web
+14-Apr-2024 15:16:14.083 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:16:14.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\examples] has finished in [3.142] ms
+14-Apr-2024 15:16:14.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\host-manager] de la aplicación web
+14-Apr-2024 15:16:16.189 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:16:16.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\host-manager] has finished in [1.774] ms
+14-Apr-2024 15:16:16.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\manager] de la aplicación web
+14-Apr-2024 15:16:17.436 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:16:17.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\manager] has finished in [1.206] ms
+14-Apr-2024 15:16:17.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\ROOT] de la aplicación web
+14-Apr-2024 15:16:18.492 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:16:18.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\webapps\ROOT] has finished in [1.065] ms
+14-Apr-2024 15:16:18.519 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 15:16:18.701 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14754] milliseconds
+14-Apr-2024 15:16:22.137 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 15:16:22.362 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 15:16:22.367 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 15:16:28.017 WARNING [http-nio-8080-exec-3] java.util.ArrayList.forEach Name = data Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+14-Apr-2024 15:16:28.017 WARNING [http-nio-8080-exec-3] java.util.ArrayList.forEach Name = data Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "-1" for "maxWait" property, which is being ignored.
+14-Apr-2024 15:16:28.165 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:16:28.184 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [5.803] ms
+14-Apr-2024 15:16:28.268 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 15:26:26.010 WARNING [http-nio-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ConsultorioOdontologico] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+14-Apr-2024 15:26:26.012 WARNING [http-nio-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 15:26:26.552 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 15:26:29.258 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 15:27:44.585 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 15:27:44.612 WARNING [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 15:27:47.295 INFO [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:27:47.311 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [2.725] ms
+14-Apr-2024 15:27:47.323 INFO [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 15:28:16.529 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/ConsultorioOdontologico]
+14-Apr-2024 15:28:23.420 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:28:23.449 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+14-Apr-2024 15:28:29.372 WARNING [http-nio-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.ClassLoader.findLoadedClass0(Native Method)
+ java.base@18.0.2.1/java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1286)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1189)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 15:28:29.890 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ConsultorioOdontologico]
+14-Apr-2024 15:28:34.428 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 15:30:09.882 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml]
+14-Apr-2024 15:30:09.884 WARNING [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ConsultorioOdontologico] in deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has been ignored
+14-Apr-2024 15:30:15.284 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+14-Apr-2024 15:30:15.294 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\jonii\OneDrive\Escritorio\consultorio\apache-tomcat-9.0.87\conf\Catalina\localhost\ConsultorioOdontologico.xml] has finished in [5.412] ms
+14-Apr-2024 15:30:15.302 INFO [http-nio-8080-exec-25] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ConsultorioOdontologico]] after start() had already been called. The second call will be ignored.
+14-Apr-2024 16:32:34.375 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+14-Apr-2024 16:32:34.390 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 16:32:34.488 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+14-Apr-2024 16:32:34.655 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ConsultorioOdontologico] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+14-Apr-2024 16:32:34.656 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ConsultorioOdontologico] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 16:32:35.536 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.exceptions.ExceptionFactory].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.exceptions.ExceptionFactory].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+		at com.mysql.cj.protocol.a.NativeProtocol.quit(NativeProtocol.java:1336)
+		at com.mysql.cj.NativeSession.quit(NativeSession.java:149)
+		at com.mysql.cj.jdbc.ConnectionImpl.realClose(ConnectionImpl.java:1721)
+		at com.mysql.cj.jdbc.ConnectionImpl.close(ConnectionImpl.java:713)
+		at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.closeDatasourceConnection(DatabaseAccessor.java:502)
+		at org.eclipse.persistence.internal.databaseaccess.DatasourceAccessor.disconnect(DatasourceAccessor.java:501)
+		at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.disconnect(DatabaseAccessor.java:515)
+		at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.disconnect(DatabaseSessionImpl.java:470)
+		at org.eclipse.persistence.sessions.server.ServerSession.disconnect(ServerSession.java:538)
+		at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:1003)
+		at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:808)
+		at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:597)
+		at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:3109)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.close(EntityManagerFactoryDelegate.java:288)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.finalize(EntityManagerFactoryDelegate.java:372)
+		at java.base/java.lang.System$2.invokeFinalize(System.java:2336)
+		at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:96)
+		at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:184)
+14-Apr-2024 16:32:35.565 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PruebasFrontBack] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+ java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+14-Apr-2024 16:32:35.657 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2024 16:32:35.697 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
