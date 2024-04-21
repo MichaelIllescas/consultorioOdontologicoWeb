@@ -33,6 +33,7 @@
 
          </form>
   
+<<<<<<< HEAD
               
               <br>
               <br><!-- <br> -->
@@ -41,4 +42,12 @@
               <br>
     <%@include file="components/bodyFinal.jsp" %>
     
+=======
+          </div>      
+              <hr>
+              <hr>
+            
+    <%@include file="components/bodyFinal.jsp" %>
+   
+>>>>>>> main
 </html>

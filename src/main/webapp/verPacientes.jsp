@@ -102,7 +102,12 @@
 
     </div>
     <!-- /.container-fluid -->
+<<<<<<< HEAD
 
+=======
+<hr>
+              <hr>
+>>>>>>> main
     
 
     <%@include file="components/bodyFinal.jsp" %>

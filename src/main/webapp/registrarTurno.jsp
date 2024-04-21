@@ -50,7 +50,11 @@
                 </div>
                 <div class="form-group">
                     <label for="fecha">Seleccione una fecha:</label>
+<<<<<<< HEAD
                     <input type="date" class="form-control form-control-user" id="fecha" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fecha" required>
+=======
+                    <input type="date" class="form-control form-control-user form-control-lg" id="fecha" placeholder="Fecha de Nacimiento (DD/MM/AAAA)" name="fecha" required>
+>>>>>>> main
                 </div>
 
 
@@ -69,7 +73,11 @@
                 </div>
                 <div class="form-group">
                     <label for="motivo">Motivo:</label>
+<<<<<<< HEAD
                     <input type="text" class="form-control  form-control-user " id="motivo" name="motivo">
+=======
+                    <input type="text" class="form-control  form-control-user form-control-lg  " id="motivo" name="motivo">
+>>>>>>> main
 
                     </input>
                 </div>
@@ -77,7 +85,11 @@
 
 
                 <div class="text-center">
+<<<<<<< HEAD
                     <button type="submit" class="btn btn-primary mt-5">Reservar Turno</button>
+=======
+                    <button type="submit" class="btn btn-primary mt-3">Reservar Turno</button>
+>>>>>>> main
                 </div>
             </div>
         </div>
@@ -86,7 +98,11 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+<hr><hr>
+>>>>>>> main
 
 <!-- /.container-fluid -->
 

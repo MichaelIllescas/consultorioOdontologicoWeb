@@ -6,7 +6,11 @@
 
 <%@page import="logica.Usuario"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<<<<<<< HEAD
 <body id="page-top" >
+=======
+<body id="page-top" class="  bg-gradient-dark   ">
+>>>>>>> main
    
 
     <!-- validacion de session-->
@@ -118,7 +122,11 @@
                 <div id="collapseUtilities" class="collapse " aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded border-bottom-secondary">
                         <h6 class="collapse-header">Acciones:</h6>
+<<<<<<< HEAD
                         <a class="collapse-item" href="SvRegistrarTurno">Asignar Turno</a>
+=======
+                        <a class="collapse-item" href="SvCargarDatosTurno">Asignar Turno</a>
+>>>>>>> main
                         <a class="collapse-item" href="SvVerTurnos">Ver Reservas</a>
                         
                     </div>
@@ -134,11 +142,25 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
             <form action="SvCargarDatosTurno" method="GET">
+<<<<<<< HEAD
             <div class="container-fluid mt-5">
 
                 <div class="text-center d-flex justify-content-center align-items-center">
 
                     <button type="submit" class="btn bg-gradient-light ">Asignar Turno</button>
+=======
+            <div class="container-fluid mt-3">
+
+                <div class="text-center d-flex justify-content-center align-items-center">
+
+                    <button id="sidebarToggle" type="button" class="rounded-circle border-0 btn bg-gradient-dark "><i class="fa-solid fa-arrows-left-right"></i></button>
+                     
+                </div>
+                
+                <div class="text-center d-flex justify-content-center align-items-center mt-3" id="">
+
+                    <button type="submit"  class="btn bg-gradient-light ">Asignar Turno</button>
+>>>>>>> main
                      
                 </div>
             </div>
@@ -148,8 +170,13 @@
         </ul>
         <!-- End of Sidebar -->
 
+<<<<<<< HEAD
         <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
+=======
+        <div class="text-center d-none d-md-inline bg-gradient-dark">
+            <button class="rounded-circle border-0 bg-" id="sidebarToggle"></button>
+>>>>>>> main
             </div>
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">

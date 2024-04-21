@@ -99,8 +99,13 @@
     </div>
     <!-- /.container-fluid -->
   
+<<<<<<< HEAD
 
     
+=======
+    <hr><!-- <hr> -->
+    <hr>
+>>>>>>> main
 
     <%@include file="components/bodyFinal.jsp" %>
 

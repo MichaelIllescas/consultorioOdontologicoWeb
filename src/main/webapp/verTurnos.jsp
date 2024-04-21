@@ -14,7 +14,11 @@
     <%@include file="components/header.jsp" %>
     <%@include file="components/bodyPrimeraParte.jsp" %>
 
+<<<<<<< HEAD
     <div class="p-5" data-aos="zoom-in">
+=======
+    <div class="mt-0" data-aos="zoom-in">
+>>>>>>> main
         <div class="text-center">
             <h1>Turnos Registrados:</h1>
         </div>
@@ -75,6 +79,10 @@
     </div>
 </div>
 
+<<<<<<< HEAD
+=======
+                    <hr><hr>
+>>>>>>> main
  <%@include file="components/bodyFinal.jsp" %>
 
 </html>
