@@ -118,7 +118,7 @@
                 <div id="collapseUtilities" class="collapse " aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded border-bottom-secondary">
                         <h6 class="collapse-header">Acciones:</h6>
-                        <a class="collapse-item" href="SvRegistrarTurno">Asignar Turno</a>
+                        <a class="collapse-item" href="SvCargarDatosTurno">Asignar Turno</a>
                         <a class="collapse-item" href="SvVerTurnos">Ver Reservas</a>
                         
                     </div>
@@ -144,7 +144,7 @@
                 
                 <div class="text-center d-flex justify-content-center align-items-center mt-3" id="">
 
-                    <button type="submit" class="btn bg-gradient-light ">Asignar Turno</button>
+                    <button type="submit"  class="btn bg-gradient-light ">Asignar Turno</button>
                      
                 </div>
             </div>
